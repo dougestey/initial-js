@@ -23,6 +23,6 @@ config(function ($routeProvider, $locationProvider) {
 
 }).run(function($rootScope){
 
-  $rootScope.$apply($(document).foundation());
+  //any pre-controller logic
 
 });
