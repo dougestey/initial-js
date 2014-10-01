@@ -1,0 +1,29 @@
+extends layout
+
+block body
+  div(ng-controller='AppCtrl')
+
+    nav.top-bar
+      ul.title-area
+        li.name
+          h1
+            a(href="/") initial
+        li.toggle-topbar.menu-icon
+          a
+      section.top-bar-section
+        ul.right
+          li.has-form
+            a.button(href="#") Button
+
+    div(ng-view)
+
+  script(src='js/lib/angular.min.js')
+  script(src='js/lib/angular-route.min.js')
+  script(src='js/lib/jquery.min.js')
+  script(src='js/lib/foundation.min.js')
+
+  script(src='js/app.js')
+  script(src='js/services.js')
+  script(src='js/controllers.js')
+  script(src='js/filters.js')
+  script(src='js/directives.js')

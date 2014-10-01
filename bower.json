@@ -1,0 +1,8 @@
+{
+  "name": "initial",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "angular": "angular/bower-angular",
+    "angular-route": "angular/bower-angular-route"
+  }
+}
