@@ -11,7 +11,7 @@ module.exports = function(grunt) {
           outputStyle: 'compressed'
         },
         files: {
-          'public/css/foundation.css': 'bower_components/foundation/scss/foundation.scss',
+          'public/css/foundation.css': 'scss/foundation.scss',
           'public/css/app.css': 'scss/app.scss'
         }        
       }
