@@ -3,7 +3,7 @@
 /* Controllers */
 
 angular.module('initialApp.controllers', []).
-  controller('AppCtrl', function ($scope, $http, $location) {
+  controller('AppCtrl', function ($scope, $rootScope, $http, $location) {
 
   	//load foundation js on document.ready
   	angular.element(document).ready(function () {
